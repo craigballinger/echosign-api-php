@@ -4,8 +4,8 @@ This PHP library wraps Adobe's EchoSign API, currently at Version 15. The librar
 
 ##Requirements
 
-*PHP 5.3
-*SOAP module
+* PHP 5.3
+* SOAP module
 
 ##Version 0.1
 This is currently a development library, not fully tested for production use
