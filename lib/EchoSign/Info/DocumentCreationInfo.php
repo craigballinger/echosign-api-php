@@ -31,6 +31,7 @@
             }
             
             $this->ccs = $ccs;
+	    return $this;
         }
         
         function getCCs(){
