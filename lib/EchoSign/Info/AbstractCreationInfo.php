@@ -109,7 +109,7 @@
             
             if(!empty($this->callback_info)) $properties['callbackInfo']['signedDocumentUrl'] = $this->callback_info;
             if(!empty($this->security_options)) $properties = array_merge($properties, $this->security_options->asArray());
-            if(!empty($this->merge_fields)) $properties = array_merge($properties, $this->merge_fields->asArray());
+            if(!empty($this->merge_fields)) $properties = array_merge($properties, array('mergeFieldInfo' => array('mergeFields' => $this->merge_fields->asArray())));    
             
             return $properties;
             
